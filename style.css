@@ -1,0 +1,68 @@
+/* Styling of the page - feel free to change anything you like */
+
+body {
+  background: lightblue;
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+
+.all-recipes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  text-align: center;
+  width: 300px;
+  background-color: #FCF0EE;
+  margin: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.recipe:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 20px;
+  transform: translateY(-4px);
+}
+
+.image {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+}
+
+h2 {
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-weight: 400;
+  height: 72px;
+  margin: 0;
+}
+
+hr {
+  border-top: 1px solid lightgrey;
+  width: 90%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #FF4E8A;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  width: 180px;
+  padding: 10px;
+  margin: 15px auto 30px auto;
+  border-radius: 6px;
+}
